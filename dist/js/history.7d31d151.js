@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["history"],{d766:function(t,e,n){"use strict";n.r(e);var r=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("v-container",{attrs:{fluid:""}},[n("v-row",[n("v-col",[t._v(" This is the history page ")])],1)],1)},s=[],i={name:"HistoryPage"},o=i,a=n("2877"),c=Object(a["a"])(o,r,s,!1,null,"0136d87c",null);e["default"]=c.exports}}]);
-//# sourceMappingURL=history.7d31d151.js.map
