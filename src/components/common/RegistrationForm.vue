@@ -106,7 +106,7 @@
                 this.$store.dispatch('register', this.$data)
                     .then(() => this.$store.dispatch('login', this.$data))
                     .then(() => this.$router.push({name: 'dashboard'}))
-                    .catch(() => this.loading = false)
+                    .catch(() => this.$data.loading = false)
             },
         },
     }
