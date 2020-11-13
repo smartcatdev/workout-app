@@ -1,8 +1,8 @@
 <template>
     <v-form model="valid" ref="form" lazy-validation>
         
-        <h2>Sign in to Companii</h2>
-
+        <h2>Sign in</h2>
+        <pwa-auth appearace="list"></pwa-auth>
         <v-alert
             v-if="loginError"
             dense
@@ -47,7 +47,7 @@
 
 <script>
 import { store } from "../../store/index";
-import * as validate from "../../functions/validation";
+import * as validate from "../../functions/validation"
 // import SubmitButton from "../elements/SubmitButton";
 
 export default {
