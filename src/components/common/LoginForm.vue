@@ -2,7 +2,6 @@
     <v-form model="valid" ref="form" lazy-validation>
         
         <h2>Sign in</h2>
-        <pwa-auth appearace="list"></pwa-auth>
         <v-alert
             v-if="loginError"
             dense
